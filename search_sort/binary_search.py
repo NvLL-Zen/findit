@@ -11,10 +11,10 @@ def search(target, start, end):
         return f"Found at index: {middle}"
 
     if arr[middle] > target:
-        search(target, start, middle-1)
+        return search(target, start, middle-1)
 
     if arr[middle] < target:
         return search(target, middle+1, end)
 
 
-print(search(11, 0, 12))
+print(search(7, 0, 12))
