@@ -7,10 +7,11 @@ def bubble_sort(arr):
         for i in range(len(arr) - n - 1):
             if arr[i] > arr[i+1]:
                 arr[i], arr[i+1] = arr[i+1], arr[i]
+                print(arr)
                 swapped = True
         if not swapped:
             break
-    
+
 
 print(f"before {arr}")
 bubble_sort(arr)
