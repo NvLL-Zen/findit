@@ -20,4 +20,3 @@ print(f"after {arr}")
 counter = 0
 swapped = False
 
-
