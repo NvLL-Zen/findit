@@ -6,6 +6,7 @@ def search(target, start, end):
         return "not found"
 
     middle = round((start+end)/2)
+    print(arr[start:end])
 
     if arr[middle] == target:
         return f"Found at index: {middle}"
@@ -17,4 +18,4 @@ def search(target, start, end):
         return search(target, middle+1, end)
 
 
-print(search(7, 0, 12))
+print(search(4, 0, 12))
