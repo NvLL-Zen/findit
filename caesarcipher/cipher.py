@@ -46,7 +46,7 @@ def main():
                         outputText.append("?")
 
 
-            print(f"\nEncrypted Text: {"".join(outputText)}\n")
+            print("Encrypted Text: ", "".join(outputText))
             break
         elif option == 2:
             rawText = input("Text to decrypt:")
@@ -70,7 +70,7 @@ def main():
                         outputText.append("?")
 
 
-            print(f"\nEncrypted Text: {"".join(outputText)}\n")
+            print("Encrypted Text: ", "".join(outputText))
             break
 
 main()
